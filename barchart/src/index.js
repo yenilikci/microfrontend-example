@@ -1,7 +1,7 @@
 import * as echarts from "echarts";
 
 // Initialize the echarts instance based on the prepared dom
-var myChart = echarts.init(document.getElementById('barchart'));
+var myChart = echarts.init(document.getElementById('barchart-dev'));
 
 // Display the chart using the configuration items and data just specified.
 myChart.setOption({
