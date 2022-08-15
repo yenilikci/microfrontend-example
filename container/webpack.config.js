@@ -10,7 +10,8 @@ module.exports = {
         new ModuleFederationPlugin({
             name: "container",
             remotes: {
-                barchart: "barchart@http://localhost:1001/remoteEntry.js"
+                barchart: "barchart@http://localhost:1001/remoteEntry.js",
+                linechart: "linechart@http://localhost:1002/remoteEntry.js"
             }
         }),
         new HtmlWebpackPlugin({

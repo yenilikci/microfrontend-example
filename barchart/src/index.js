@@ -5,10 +5,6 @@ var myChart = echarts.init(document.getElementById('barchart-dev'));
 
 // Display the chart using the configuration items and data just specified.
 myChart.setOption({
-    title: {
-        text: 'ECharts Getting Started Example'
-    },
-    tooltip: {},
     legend: {
         data: ['sales']
     },
